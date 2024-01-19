@@ -262,6 +262,10 @@ h5 {
   #about {
     height: 150vh;
   }
+
+  #abt-me {
+    width: 800px;
+  }
 }
 
 @media (max-width: 1090px) {
@@ -270,6 +274,19 @@ h5 {
   }
   #sk-box2 {
     height: 300px;
+  }
+  #abt-me {
+    width: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  #links {
+    width: 70%;
+    left: 15%;
+  }
+  #abt-me {
+    width: 400px;
   }
 }
 
